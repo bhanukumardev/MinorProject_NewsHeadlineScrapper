@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge News - Breaking News, Latest News, India News, World News, Bollywood, Sports, Busi",
+  "Type": "App",
+  "Id": "fjUljxosQUi7Y0NDbb_ncg",
+  "Reference": "rvyCOaprb0O7HYZFoFHM9A/fjUljxosQUi7Y0NDbb_ncg",
+  "Created": "2025-08-12T11:42:14.8499789Z",
+  "Updated": "2025-08-12T11:42:14.8499789Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

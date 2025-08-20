@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge News - Breaking News, Latest News, India",
+  "Type": "Screen",
+  "Id": "w4diurhxHEWuQxuFEyqxpg",
+  "Reference": "rvyCOaprb0O7HYZFoFHM9A/w4diurhxHEWuQxuFEyqxpg",
+  "ParentRef": "rvyCOaprb0O7HYZFoFHM9A/_MtJ50N0LUG5VhYzLeL9JA",
+  "Created": "2025-08-12T11:42:15.093833Z",
+  "Updated": "2025-08-12T11:42:15.093833Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

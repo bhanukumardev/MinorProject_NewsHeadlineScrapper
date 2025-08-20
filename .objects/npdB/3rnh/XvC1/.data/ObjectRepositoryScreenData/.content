@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="jHv2VlZgB0mI3r6f_w3TTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1102" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAASdJREFUWEftl9sNwjAQBK8ESqAUOoEOoAMogY4ohRIoAbQoJ1m2JyHJ8gUjWYq89q3j+HGJ+NOyi4hbRDwi4mksirmvzWrOnY7uIo8uh6LRJSI2dYOBbDMHxToVfTXLDZoiiWo4xpIBJHox9ZVXQwamN0/WDECx1Vfrq+HTwLk4t7XwIeiDQkVO49rSgEKHq2GbNqBgBn1QMIM+KJhBHxTMoA8KZtAHBTPoQ4JuMG25e3Wbza1PyAcFBUqtPELn1ifkg0J54Cj40vqEfFDQNa1ACqznpfUJ+bBgBn1QMIM+KJhBHxTMoA8KZtAnt89USraGTMm6A8ikVBnPtzgOHt2kVKlyjk6ZsXMmFKv85+gd0W9c+d5YmZxhnV75OVxF60sxuz8kv80LzI8Nz/1reB8AAAAASUVORK5CYII=" Selector="&lt;html app='msedge.exe' title='New tab' /&gt;" Url="edge://newtab/" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="91d00ea3eca73929ccd1e9c6a340004e.png" xmlns="">0CyWRXK9OYUaokdn3NsqvBQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

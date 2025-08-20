@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Tin5eqPZA0ugR0AuPQn1AA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://timesofindia.indiatimes.com/" DesignTimeRectangle="17, 234, 1885, 26356" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl parentid='app' tag='DIV' /&gt;" Guid="55d53c43-f471-47e0-838c-8ef2a2924156" ScopeSelectorArgument="&lt;html app='msedge.exe' title='News - Breaking News, Latest News, India News, World News, Bollywood, Sports, Business and Political News | Times of India' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="90bc70f8cccd4102017f8953ccb8a341.png" xmlns="">0HrbdllBR8Ee7zIRyN2MhPw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='New column 0'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="timesofindia.indiatimes.com" CVScreenId="bff92fcb-549b-4583-99b2-9f33b44eb02f" CvTextArea="860, 431, 66, 16" CvTextArgument="Cricket" CvType="Text" DesignTimeRectangle="854, 409, 78, 60" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-label='Cricket' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Cricket' tag='A' type='' class='rxTTw  null undefined' aaname='Cricket' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cricket' /&gt;" Guid="736b79f6-6de8-4727-b3d3-e35a2db039cc" ScopeSelectorArgument="&lt;html app='msedge.exe' title='News - Breaking News, Latest News, India News, World News, Bollywood, Sports, Business and Political News | Times of India' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

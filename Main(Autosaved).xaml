@@ -1,0 +1,197 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="921.3333333333333,1128.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge New tab" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,1106" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="a46ab701-e5eb-4bac-99c4-d28b9a75ef25" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,864" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="headlineElements" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" ClipboardMode="Never" DisplayName="Type Into 'editable text Address a…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="a46ab701-e5eb-4bac-99c4-d28b9a75ef25" Text="Times of India[k(Enter)]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="newtab" CVScreenId="f07f4412-c65a-472a-966b-15227db4f4fb" ContentHash="Fc5CsDTpHE6OLKC7xvHTgw" CvElementArea="128, 64, 1503, 52" CvType="InputBox" DesignTimeRectangle="198, 71, 1389, 42" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='New tab - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="fbaad8a4-c31e-4b94-a65e-4660cea1ec6b" InformativeScreenshot="cf819eb16a1ba822a1abe239742f683f.png" Reference="rvyCOaprb0O7HYZFoFHM9A/0dQUY9ZyKki_p68QZVE3AQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='New tab - Personal - Microsoft​ Edge' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="f07f4412-c65a-472a-966b-15227db4f4fb" CvElementArea="128, 64, 1503, 52" CvType="InputBox" DesignTimeRectangle="152, 71, 36, 42" ElementType="Icon" FuzzySelectorArgument="&lt;ctrl name='New tab - Microsoft Edge' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Search icon' role='graphic' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Search icon' /&gt;" Guid="89398a42-87c8-4d50-95de-4425af85b2ed" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Times of India'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a46ab701-e5eb-4bac-99c4-d28b9a75ef25" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="bing.com/search" CVScreenId="7c176a5e-aa72-4ec2-983b-2509ffcb6835" ContentHash="sZPmRHy36UG6nIqEGzco9A" CvTextArea="285, 666, 230, 33" CvTextArgument="Times of India" CvType="Text" DesignTimeRectangle="287, 662, 229, 43" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Times of India' tag='A' /&gt;" Guid="dad96f78-c35d-42a7-9b36-9c3884c0fdd3" InformativeScreenshot="ff3a3db2bfdbeefd2c1a42c7b2c964a6.png" Reference="rvyCOaprb0O7HYZFoFHM9A/nhrBzKGFCUmbxMUPE6Um9Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Times of India - Search' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="7c176a5e-aa72-4ec2-983b-2509ffcb6835" CvElementArea="287, 590, 61, 60" CvType="Icon" DesignTimeRectangle="294, 595, 48, 48" ElementType="Icon" FullSelectorArgument="&lt;webctrl aaname='Global web icon' class='rms_img' tag='IMG' /&gt;" Guid="407914c7-5323-419b-a53f-840a0dafee7e" ImageBase64="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" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:FindChildren Children="[headlineElements]" DisplayName="Find Children 'H3'" Filter="&lt;webctrl /&gt;" sap:VirtualizedContainerService.HintSize="452,139.33333333333334" sap2010:WorkflowViewState.IdRef="FindChildren_1" Scope="FIND_CHILDREN">
+              <ui:FindChildren.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cb1e6a7e-616a-40dc-ae79-59223621359c" InformativeScreenshot="1f09dd022af72501f7c1052f3a7e091b" Selector="&lt;webctrl tag='H3' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:FindChildren.Target>
+            </ui:FindChildren>
+            <ui:ForEach x:TypeArguments="ui:UiElement" CurrentIndex="{x:Null}" DisplayName="For Each currentUiElement" sap:VirtualizedContainerService.HintSize="452,216" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[New List(Of UiPath.Core.UiElement)]">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="ui:UiElement">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ui:UiElement" Name="currentUiElement" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1102" BrowserType="Edge" ContentHash="3lh02PKR6ES5FFZRaB8mZw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAASdJREFUWEftl9sNwjAQBK8ESqAUOoEOoAMogY4ohRIoAbQoJ1m2JyHJ8gUjWYq89q3j+HGJ+NOyi4hbRDwi4mksirmvzWrOnY7uIo8uh6LRJSI2dYOBbDMHxToVfTXLDZoiiWo4xpIBJHox9ZVXQwamN0/WDECx1Vfrq+HTwLk4t7XwIeiDQkVO49rSgEKHq2GbNqBgBn1QMIM+KJhBHxTMoA8KZtAHBTPoQ4JuMG25e3Wbza1PyAcFBUqtPELn1ifkg0J54Cj40vqEfFDQNa1ACqznpfUJ+bBgBn1QMIM+KJhBHxTMoA8KZtAnt89USraGTMm6A8ikVBnPtzgOHt2kVKlyjk6ZsXMmFKv85+gd0W9c+d5YmZxhnV75OVxF60sxuz8kv80LzI8Nz/1reB8AAAAASUVORK5CYII=" InformativeScreenshot="32d9aca3a4215366c80a742983b6592f.png" Reference="rvyCOaprb0O7HYZFoFHM9A/z2V2zE72lU6Y2l8hbfx2-g" Selector="&lt;html app='msedge.exe' title='New tab' /&gt;" Url="edge://newtab/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fu-w_b52B0uT-zB_oNKy1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://timesofindia.indiatimes.com/" DesignTimeRectangle="210, 383, 720, 1862" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl class='nEjlO' parentid='app' tag='DIV' /&gt;" Guid="c83b0fea-5537-4939-89c0-a862fce1e3bd" ScopeSelectorArgument="&lt;html app='msedge.exe' title='News - Breaking News, Latest News, India News, World News, Bollywood, Sports, Business and Political News | Times of India' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c1577bce243eb45097eaae12318d1aac.png" xmlns="">0KQttSe0HIUG4iCAdyj1Uow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='New column 0'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="timesofindia.indiatimes.com" DesignTimeRectangle="574, 781, 179, 81" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl aaname='Are the UK and Canada covertly backing the Khalistan cause?' tag='FIGCAPTION' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Are the UK and Canada covertly backing the Khalistan cause?' tag='FIGCAPTION' type='' class='    ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Are the UK and Canada covertly backing the Khalistan cause?' /&gt;" Guid="77e9e325-0a9d-4d3b-bc67-44dbdbb2b306" ScopeSelectorArgument="&lt;html app='msedge.exe' title='News - Breaking News, Latest News, India News, World News, Bollywood, Sports, Business and Political News | Times of India' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
